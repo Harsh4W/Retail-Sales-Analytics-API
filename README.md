@@ -163,6 +163,30 @@ The Streamlit dashboard provides:
 - Delivery performance
 - Expandable analytical data tables
 
+## 📊 Dashboard Screenshots
+
+The interactive Streamlit dashboard provides insights into sales performance, product trends, geographical distribution, order statuses, and delivery performance.
+
+### 1. Dashboard Overview
+
+![Retail Sales Analytics Dashboard](screenshots/dashboard_overview/dashboard_overview.png)
+
+### 2. Product Analysis
+
+![Top 10 Products and Categories](screenshots/Product%20Analysis/top%2010%20products%20and%20categories.png)
+
+### 3. Geographical Sales Analysis
+
+![Sales by Customer State](screenshots/Product%20Analysis/sales%20by%20states.png)
+
+### 4. Order Status Distribution
+
+![Order Status Distribution](screenshots/Payment%20and%20Order%20Analysis/Order%20Status%20Distribution.png)
+
+### 5. Delivery Performance
+
+![Delivery Performance](screenshots/Delivery%20and%20Detailed%20Data/delivery%20performance.png)
+
 ## REST API Endpoints
 
 | Method | Endpoint | Description |
