@@ -1,0 +1,33 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset and database files
+data/Raw/
+data/processed/
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# IDE settings
+.vscode/
+.idea/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
