@@ -208,8 +208,8 @@ Interactive API documentation is available through Swagger UI at `/docs`.
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd Retail_Sales_Analytics_API
+git clone https://github.com/Harsh4W/Retail-Sales-Analytics-API.git
+cd Retail-Sales-Analytics-API
 ```
 
 ### 2. Create a virtual environment
@@ -240,13 +240,13 @@ data/Raw/
 
 ### 5. Initialize and populate the database
 
-Follow the project scripts in the appropriate order:
+Run the following commands in order:
 
 ```bash
 python -m src.inspect_dataset
+python -m src.database
 python -m src.cleaning
 python -m src.validate_cleaning
-python -m src.database
 python -m src.ingest
 python -m src.verify_ingestion
 ```
@@ -291,10 +291,14 @@ The API test suite contains 13 tests covering:
 
 - Homepage response
 - Sales summary
+- Top products with default and custom limits
+- Invalid and maximum query limits
 - Monthly sales
-- Top products
-- Query parameter validation
-- Category analytics
+- Product categories
+- Sales by customer state
+- Payment analysis
+- Delivery performance
+- Order status distribution
 
 The previously verified test result was:
 
